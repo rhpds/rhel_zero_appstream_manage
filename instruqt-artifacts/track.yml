@@ -1,0 +1,19 @@
+slug: appstream-manage
+id: o0qmghgcbtri
+title: Managing software from an application stream
+description: Learn how to choose versions of popular and supported open source languages
+  and offer them to users through an application stream.
+icon: https://storage.googleapis.com/instruqt-frontend/img/tracks/default.png
+level: beginner
+tags:
+- rhel
+owner: rhel
+developers:
+- myee@redhat.com
+- smcbrien@redhat.com
+show_timer: true
+lab_config:
+  overlay: false
+  width: 33
+  position: right
+checksum: "2172652272192592250"
