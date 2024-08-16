@@ -4,7 +4,7 @@ lifecycle than other packages provided with Red Hat Enterprise Linux.
 According to the RHEL 9 Aplications Streams Release Lifecycle section of
 the
 https://access.redhat.com/support/policy/updates/rhel-app-streams-life-cycle[Application
-Streams Lifecycle Page], ruby 3.1 will be retired in March 2025.
+Streams Lifecycle Page,window=read-later], ruby 3.1 will be retired in March 2025.
 
 However, for our application, that is fine because we expect continued
 development and will likely be upgrading to an even newer version of
