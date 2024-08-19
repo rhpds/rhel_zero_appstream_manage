@@ -11,7 +11,7 @@ development and will likely be upgrading to an even newer version of
 ruby at some point during our application life. Go ahead and install
 ruby 3.1 on the system:
 
-[source,bash]
+[source,bash,subs="+macros,+attributes",role=execute]
 ----
 dnf -y module install ruby:3.1
 ----
@@ -19,10 +19,13 @@ dnf -y module install ruby:3.1
 You can verify that ruby 3.1 is now available on the system by checking
 the version reported by ruby:
 
-[source,bash]
+[source,bash,subs="+macros,+attributes",role=execute]
 ----
 ruby --version
 ----
 
+[source,text]
+----
 << OUTPUT ABRIDGED >> ruby 3.1.2p20 (2022-04-12 revision 4491bb740a)
 [x86_64-linux] ```
+----
