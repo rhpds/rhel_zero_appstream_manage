@@ -9,36 +9,41 @@ and shipped as a module.
 
 List the available ruby modules.
 
-[source,bash]
+[source,bash,subs="+macros,+attributes",role=execute]
 ----
 dnf module list ruby
 ----
 
+[source,text]
+----
 << OUTPUT ABRIDGED >> Red Hat Enterprise Linux 9 for x86_64 - AppStream
 (RPMs) Name Stream Profiles Summary ruby 3.1 common [d] An interpreter
 of object-oriented scripting language
 
 Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
-
-....
+----
 
 From the above output, you can see that ruby 3.1 is available and can be installed on the system.
 
 In order to upgrade the system, first remove ruby 3.0.
 
-```bash
+[source,bash,subs="+macros,+attributes",role=execute]
+----
 dnf -y remove ruby
-....
+----
 
 Take a look at the machine to validate the removal of ruby 3.0.
 
-[source,bash]
+[source,bash,subs="+macros,+attributes",role=execute]
 ----
 dnf list ruby
 ----
 
+[source,text]
+----
 << OUTPUT ABRIDGED >> Available Packages ruby.i686 3.0.4-160.el9_0
 rhel-9-for-x86_64-appstream-rpms ```
+----
 
 Previously, the dnf list showed ruby in the `+Installed Packages+`. Now
 that it has been removed from the system, it is listed in the
