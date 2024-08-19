@@ -1,18 +1,19 @@
 Now that the ruby 3.1 is installed, you can also look at how the modular
 package management is reported by `+dnf+`.
 
-[source,bash]
+[source,bash,subs="+macros,+attributes",role=execute]
 ----
 dnf module list ruby
 ----
 
+[source,text]
+----
 << OUTPUT ABRIDGED >> Red Hat Enterprise Linux 9 for x86_64 - AppStream
 (RPMs) Name Stream Profiles Summary ruby 3.1 [e] common [d] [i] An
 interpreter of object-oriented scripting language
 
 Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
-
-....
+----
 
 From the above output, you can see that ruby 3.1 is the enabled `[e]` module and that it is installed `[i]` on the system.
 
@@ -20,6 +21,7 @@ As Red Hat releases updated application streams, you will use a similar process 
 
 To see the full list of available modular packaged application streams an their versions available for your system:
 
-```bash
+[source,bash,subs="+macros,+attributes",role=execute]
+----
 dnf module list
-....
+----
