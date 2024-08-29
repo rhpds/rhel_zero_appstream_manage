@@ -10,7 +10,7 @@ dnf list ruby
 ----
 << OUTPUT ABRIDGED >>
 Available Packages
-ruby.x86_64                      3.0.4-160.el9_0                      rhel-9-for-x86_64-appstream-rpms
+ruby.x86_64                      3.0.7-162.el9_4                      rhel-9-for-x86_64-appstream-rpms
 ----
 
 Generally, the version of software provided with the base RHEL 9

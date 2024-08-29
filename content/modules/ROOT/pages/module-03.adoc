@@ -16,9 +16,11 @@ dnf module list ruby
 
 [source,text]
 ----
-<< OUTPUT ABRIDGED >> Red Hat Enterprise Linux 9 for x86_64 - AppStream
-(RPMs) Name Stream Profiles Summary ruby 3.1 common [d] An interpreter
-of object-oriented scripting language
+<< OUTPUT ABRIDGED >>
+Red Hat Enterprise Linux 9 for x86_64 - AppStream(RPMs)
+Name Stream Profiles Summary
+ruby 3.1 common [d] An interpreter of object-oriented scripting language
+ruby 3.3 common [d] An interpreter of object-oriented scripting language
 
 Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
 ----
@@ -41,8 +43,10 @@ dnf list ruby
 
 [source,text]
 ----
-<< OUTPUT ABRIDGED >> Available Packages ruby.i686 3.0.4-160.el9_0
-rhel-9-for-x86_64-appstream-rpms ```
+<< OUTPUT ABRIDGED >>
+Available Packages
+ruby.i686    3.0.7-162.el9_4  rhel-9-for-x86_64-appstream-rpms
+ruby.x86_64  3.0.7-162.el9_4  rhel-9-for-x86_64-appstream-rpm
 ----
 
 Previously, the dnf list showed ruby in the `+Installed Packages+`. Now

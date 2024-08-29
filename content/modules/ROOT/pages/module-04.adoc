@@ -26,6 +26,6 @@ ruby --version
 
 [source,text]
 ----
-<< OUTPUT ABRIDGED >> ruby 3.1.2p20 (2022-04-12 revision 4491bb740a)
-[x86_64-linux] ```
+<< OUTPUT ABRIDGED >>
+ruby 3.1.5p252 (2024-04-23 revision 1945f8dc0e) [x86_64-linux]
 ----

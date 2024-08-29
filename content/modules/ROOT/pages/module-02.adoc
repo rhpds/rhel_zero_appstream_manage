@@ -16,7 +16,7 @@ dnf list ruby
 
 [source,text]
 ----
-<< OUTPUT ABRIDGED >> Installed Packages ruby.x86_64 3.0.4-160.el9_0
+<< OUTPUT ABRIDGED >> Installed Packages ruby.x86_64 3.0.7-162.el9_4
 @rhel-9-for-x86_64-appstream-rpms
 ----
 
@@ -29,5 +29,5 @@ ruby --version
 
 [source,text]
 ----
-ruby 3.0.4p208 (2022-04-12 revision 3fa771dded) [x86_64-linux]
+ruby 3.0.7p220 (2024-04-23 revision 724a071175) [x86_64-linux]
 ----
