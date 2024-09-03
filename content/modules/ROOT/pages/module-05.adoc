@@ -1,11 +1,13 @@
 Now that the ruby 3.1 is installed, you can also look at how the modular
 package management is reported by `+dnf+`.
 
+.Command
 [source,bash,subs="+macros,+attributes",role=execute]
 ----
 dnf module list ruby
 ----
 
+.Output
 [source,text]
 ----
 << OUTPUT ABRIDGED >>
@@ -23,6 +25,7 @@ As Red Hat releases updated application streams, you will use a similar process 
 
 To see the full list of available modular packaged application streams an their versions available for your system:
 
+.Command
 [source,bash,subs="+macros,+attributes",role=execute]
 ----
 dnf module list
