@@ -15,7 +15,7 @@ List the available ruby modules.
 dnf module list ruby
 ----
 
-.Putput
+.Output
 [source,text]
 ----
 << OUTPUT ABRIDGED >>
